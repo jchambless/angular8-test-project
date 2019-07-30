@@ -2,9 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'admin-header',
-  templateUrl: './header.component.html'
+  templateUrl: './header.component.html',
+  styleUrls: ['./header.css']
 })
 export class HeaderComponent {
-  title = 'Admin Panel';
-  subTitle = 'Administer your app';
 }
