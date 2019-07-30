@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { DashboardComponent } from './dashboard.component';
 
+import { ChartsModule } from 'ng2-charts';
+
 @NgModule({
   imports: [
     CommonModule,
@@ -12,7 +14,8 @@ import { DashboardComponent } from './dashboard.component';
         component: DashboardComponent,
         pathMatch: 'full'
       }
-    ])
+    ]),
+    ChartsModule
   ],
   declarations: [
     DashboardComponent
