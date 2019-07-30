@@ -16,6 +16,7 @@
     "@ngrx/effects": "2.0.5",
     "@ngrx/router-store": "1.2.6",
     "@ngrx/store": "2.2.3",
+    "chart.js": "^2.8.0",
     "core-js": "2.6.9",
     "primeicons": "2.0.0",
     "primeng": "8.0.2",
