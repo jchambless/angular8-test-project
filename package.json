@@ -10,7 +10,13 @@
     "@angular/platform-browser": "^8.0.0",
     "@angular/platform-browser-dynamic": "^8.0.0",
     "@angular/router": "^8.0.0",
+    "@ngrx/core": "^1.2.0",
+    "@ngrx/effects": "2.0.5",
+    "@ngrx/router-store": "1.2.6",
+    "@ngrx/store": "2.2.3",
     "core-js": "2",
+    "primeicons": "^2.0.0",
+    "primeng": "^8.0.2",
     "rxjs": "^6.5.2",
     "zone.js": "^0.9.1"
   },
