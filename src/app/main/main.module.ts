@@ -4,6 +4,8 @@ import { MainRoutingModule } from './main-routing.module';
 
 import { HomeComponent } from './home/home.component';
 import { MainComponent } from './main.component';
+import { HeaderComponent } from './shared/layout/header/header.component';
+import { SidebarComponent } from './shared/layout/sidebar/sidebar.component';
 
 @NgModule({
   imports: [
@@ -12,7 +14,9 @@ import { MainComponent } from './main.component';
   ],
   declarations: [
     MainComponent,
-    HomeComponent
+    HomeComponent,
+    HeaderComponent,
+    SidebarComponent
   ]
 })
 export class MainModule {}
