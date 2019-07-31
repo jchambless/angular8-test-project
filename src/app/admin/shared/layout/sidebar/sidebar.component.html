@@ -2,33 +2,33 @@
   <div class="sidebar-sticky">
     <ul class="nav flex-column">
       <li class="nav-item">
-        <a class="nav-link active" href="https://getbootstrap.com/docs/4.0/examples/dashboard/#">
+        <a class="nav-link active" [routerLinkActive]="['active']" [routerLink]="['/app/admin/dashboard']">
           Dashboard <span class="sr-only">(current)</span>
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://getbootstrap.com/docs/4.0/examples/dashboard/#">
-          Orders
+        <a class="nav-link" [routerLinkActive]="['active']" [routerLink]="['/app/admin/blog']">
+          Blog
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://getbootstrap.com/docs/4.0/examples/dashboard/#">
-          Products
+        <a class="nav-link" [routerLinkActive]="['active']" [routerLink]="['/app/admin/gallery']">
+          Gallery
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://getbootstrap.com/docs/4.0/examples/dashboard/#">
-          Customers
+        <a class="nav-link" [routerLinkActive]="['active']" [routerLink]="['/app/admin/users']">
+          Users
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://getbootstrap.com/docs/4.0/examples/dashboard/#">
-          Reports
+        <a class="nav-link" [routerLinkActive]="['active']" [routerLink]="['/app/admin/roles']">
+          Roles
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://getbootstrap.com/docs/4.0/examples/dashboard/#">
-          Integrations
+        <a class="nav-link" [routerLinkActive]="['active']" [routerLink]="['/app/admin/settings']">
+          Settings
         </a>
       </li>
     </ul>
